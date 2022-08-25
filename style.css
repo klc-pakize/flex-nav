@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  margin-top: 2rem;
+  background-color: grey;
+}
+
+.logo {
+  display: flex;
+  /* margin: 5px; */
+  width: 75%;
+  height: 30px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#logo1 {
+  width: 3rem;
+}
+
+.section {
+  width: 50%;
+  display: flex;
+  min-width: 10px;
+  margin: 0 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 2px solid rgba(128, 128, 128, 0.686);
+  border-radius: 5px;
+  background-color: rgb(189, 184, 184);
+}
+.section a {
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+}
+.section a:hover {
+  color: white;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background-color: rgb(43, 43, 43);
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.medya {
+  display: flex;
+  justify-content: flex-end;
+  width: 65%;
+  margin-top: 0.2rem;
+}
+
+.fa-instagram {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.fa-square-facebook {
+  padding-right: 0.5rem;
+}
+
+.fa-brands:hover {
+  color: white;
+  transition: 1s;
+  transform: scale(1.5, 1.5);
+}
